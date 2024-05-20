@@ -64,4 +64,4 @@ def load_sidebar() -> None:
 
 
 ## add sniff test
-model_tab.title("Sniff Test")
+sniff_test.title("Sniff Test")
