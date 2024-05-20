@@ -13,7 +13,7 @@ st.set_page_config(
 
 tools.remove_white_space()
 
-st.title("Investment Risk Management Simulation")
+st.title(" SFS Investment Risk Management Simulation")
 
 comp.load_sidebar()
 
