@@ -15,9 +15,9 @@ def load_sidebar() -> None:
     if "run_simulation" not in st.session_state:
         st.session_state["run_simulation"] = False
 
-    portfo_tab, model_tab,test_tab = st.sidebar.tabs(["📈 Create Portfolio",
+    portfo_tab, model_tab,sniff_test = st.sidebar.tabs(["📈 Create Portfolio",
                                              "🐂 Build Risk Model",
-                                             "Test Tab"])
+                                             "Sniff Test"])
 
     # add portfolio tab components
     portfo_tab.title("Portfolio Building")
@@ -61,3 +61,7 @@ def load_sidebar() -> None:
         tolerance, while CVaR is your backup plan with health potions. Understanding these helps you make 
         smart moves and avoid losses.
     """)
+
+
+## add sniff test
+model_tab.title("Sniff Test")
