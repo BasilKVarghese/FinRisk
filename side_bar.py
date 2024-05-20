@@ -63,5 +63,5 @@ def load_sidebar() -> None:
     """)
 
 
-## add sniff test
-sniff_test.title("Sniff Test")
+    ## add sniff test
+    sniff_test.title("Sniff Test")
